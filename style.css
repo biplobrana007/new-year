@@ -131,3 +131,42 @@
     border: none;
     cursor: pointer;
 }
+
+/* EVENT */
+
+.event{
+    max-width: 1320px;
+    height: 490px;
+    margin: 120px auto;
+    border-radius: 16px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #ffE7E7, transparent);
+
+}
+
+.event h3{
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: 550;
+
+}
+
+.event button{
+    font-size: 20px;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 40px;
+    font-weight: bold;
+
+}
+
+.event span{
+    color: #FF0000; 
+    margin-right: 8px;
+}

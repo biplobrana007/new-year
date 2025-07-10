@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* FONTS */
+.merriweatherFont {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.interFont {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+/* BANNER */
+.bannerImg {
+    max-width: 1320px;
+    margin: auto;
+    height: 600px;
+    background: url(images/Banner\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+
+}
+
+.banner {
+    border-radius: 13px;
+    background-color: #0000005c;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerTxt {
+    text-align: center;
+    font-family: merriwheater;
+}
+
+.happy {
+    font-size: 32px;
+    color: white;
+}
+
+.party {
+    font-size: 72px;
+    color: white;
+}
+
+
+
+/* DISCOUNT*/
+.discount {
+    max-width: 802px;
+    height: 806px;
+    text-align: center;
+    margin: 120px auto;
+}
+
+.off {
+    font-size: 88px;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+
+.holiday {
+    font-size: 24px;
+    font-weight: normal;
+    color: #FF0000;
+}
+
+.category {
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+
+
+/* WELLCOME */
+
+.wlcBg{
+    background-image: url(images/Vectorrr.png);
+    max-width: 1320px;
+    height: 600px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.wlc{
+    border-radius: 13px;
+    background: linear-gradient(90deg, #000000, transparent);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px
+}
+
+.wlcText{
+    width: 660px;
+    color: white;
+}
+
+.wlcToParty {
+    font-size: 66px;
+}
+
+.wlcPara{
+    font-size: 18px;
+    margin: 24px 0 48px;
+}
+
+.wlcText button{
+    font-size: 20px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -170,3 +170,57 @@
     color: #FF0000; 
     margin-right: 8px;
 }
+
+/* OFFER  COMMING SOON */
+
+.commingSoon{
+    max-width: 1320px;
+    margin: auto;
+    height: 465px;
+    display: flex;
+    gap: 30px;
+}
+
+.soonLeft{
+    width: 580px;
+    margin-top: 130px;
+}
+.soonLeft h3{
+    color: #FF0000;
+    font-size: 24px;
+
+}
+
+.soonLeft h2{
+    color: black;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.soonLeft p{
+    line-height: 32px;
+    font-size: 20px;
+    color: #6A6770;
+}
+.soonMiddle{
+    border: 15px  solid #FF0000;
+    border-radius: 50%;
+    padding: 35px;
+
+}
+
+.soonRight{
+    margin-top: 130px;
+}
+
+.soonRight h2{
+    font-size: 48px;
+    color: #FF0000;
+}
+
+.soonRight p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #6A6770;
+    margin: 20px 0 50px;
+}

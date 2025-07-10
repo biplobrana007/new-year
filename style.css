@@ -224,3 +224,64 @@
     color: #6A6770;
     margin: 20px 0 50px;
 }
+
+/* HOLIDAY SALE */
+
+.holidaySale{
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.holidayText{
+    text-align: center;
+}
+
+.holidayText h2 {
+    font-size: 24px;
+}
+
+.holidayText h4{
+    font-size: 72px;
+    margin: 20px;
+}
+
+.holidayText span{
+    color: #FF0000;
+    margin-right: 10px;
+}
+
+.holidayText p{
+    font-size:20px;
+    color: #6A6770;
+
+}
+
+.holidayImg{
+    position: relative;
+    margin-top: 40px;
+}
+
+.forwardImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.sale{
+    position: absolute;
+    top: 6%;
+    left: 73%;
+}
+
+.backwardImg{
+    position: absolute;
+    top: 380px;
+}
+
+.giftBox{
+    width:675px;
+    height: 575px;
+
+}

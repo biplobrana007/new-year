@@ -30,12 +30,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 20px;
-
 }
 
 .banner {
     border-radius: 13px;
-    background-color: #0000005c;
+    background: linear-gradient(180deg, black, transparent);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -163,6 +162,7 @@
     border-radius: 8px;
     margin-top: 40px;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
@@ -353,6 +353,12 @@
     margin: 0 auto 40px auto;
 }
 
+.subsEmailBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .subsEmail{
     font-size: 18px;
     width: 648px;
@@ -367,8 +373,76 @@
     border-radius: 0 50px 50px 0;
     font-size: 20px;
     position: absolute;
-    right: 25%;
+    right: 453px;
     background: #FF0000;
     border: none;
     color: white;
 }
+
+/* footer */
+
+footer{
+    background: black;
+    color: white;
+    font-size: 24px;
+}
+
+footer h5{
+    font-weight: 400 ;
+}
+
+.footerContainer{
+    max-width: 1320px;
+    margin: auto;
+    padding: 120px 0;
+}
+.contactInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInfo h5{
+    margin-bottom: 10px;
+}
+
+.web{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 48px 0;
+    border-top: 1px solid #ffffff15;
+    border-bottom: 1px solid #ffffff15;
+    margin: 40px 0;
+}
+
+.social img{
+    width: 64px;
+}
+
+.copyR{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts h5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.unsub{
+    text-decoration: none;
+    color: white;
+}
+

@@ -238,6 +238,7 @@
 
 .holidayText h2 {
     font-size: 24px;
+    font-weight: 600;
 }
 
 .holidayText h4{
@@ -253,6 +254,8 @@
 .holidayText p{
     font-size:20px;
     color: #6A6770;
+    width: 1000px;
+    margin: 0 auto 50px;
 
 }
 
@@ -284,4 +287,88 @@
     width:675px;
     height: 575px;
 
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    max-width: 1320px;
+    margin: 120px  auto;
+}
+
+.scndryHead{
+    font-size: 24px;
+    color: red;
+    font-weight: 500;
+
+}
+
+.mainHead{
+    font-size: 48px;
+    margin: 15px 0;
+    color: #070211;
+    font-weight: bold;
+}
+
+.subHead{
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 890px;
+    color: #07021196;
+}
+
+.portImges{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.portImg{
+    width: 424px;
+    height: 450px;
+
+}
+
+/* NEWSLETTER */
+
+.subNws{
+    max-width: 1320px;
+    margin: 120px auto;
+    text-align: center;
+    background: #FFF2F2;
+    border-radius: 16px;
+    padding: 80px 0;
+}
+
+.subs{
+    font-size: 48px;
+    margin: 40px 0 20px;
+}
+
+.subNwsTxt{
+    font-size: 20px;
+    width: 890px;
+    color: #07021196;
+    margin: 0 auto 40px auto;
+}
+
+.subsEmail{
+    font-size: 18px;
+    width: 648px;
+    padding: 25px 0 25px 30px;
+    border-radius: 50px;
+    position: relative;
+    border: none;
+}
+
+.subsBtn{
+    padding: 24px 56px;
+    border-radius: 0 50px 50px 0;
+    font-size: 20px;
+    position: absolute;
+    right: 25%;
+    background: #FF0000;
+    border: none;
+    color: white;
 }
